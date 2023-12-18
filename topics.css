@@ -1,0 +1,70 @@
+:root {
+    --fonty: 'Cairo', sans-serif;
+    --fonty_2: 'Alexandria', sans-serif;
+    --fonty_3: 'Noto Nastaliq Urdu', serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background: #a70008;
+}
+.intro_img {
+    width: 100%;
+    height: 40%;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: url(photo_two.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.intro_img_2 {
+    width: 100%;
+    height: 40%;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: url(photo_three.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.intro_img_3 {
+    width: 100%;
+    height: 40%;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: url(photo_four.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin: 100px auto;
+    font-size: 4.7em;
+    font-family: var(--fonty_2);
+}
+P {
+    color: #fff;
+    font-size: 2.8em;
+    font-family: var(--fonty);
+    text-align: center;
+    margin: 100px 20px;
+}
+.title_2 {
+    font-size: 3.7em;
+}
+a {
+    color: #fff;
+    margin: 100px 20px;
+    font-size: 4.5em;
+    font-family: var(--fonty);
+    text-decoration: none;
+    font-weight: 600px;
+}
+.a_fix {
+    text-align: right;
+}
